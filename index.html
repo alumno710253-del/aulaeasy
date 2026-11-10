@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AulaEasy: cursos de idiomas y nuevas tecnologías para aprender a tu ritmo.">
+  <title>AulaEasy | Aprende hoy, avanza siempre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="AulaEasy, inicio">
+        <span class="brand-mark">A</span><span>Aula<span class="brand-accent">Easy</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#nosotros">Quiénes somos</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#tecnologia">Informática</a>
+        <a href="#horarios">Horarios y precios</a>
+        <a class="nav-cta" href="#contacto">Matrícula</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> TU ACADEMIA DE IDIOMAS Y TECNOLOGÍA</span>
+          <h1>Aprende hoy.<br><span>Avanza siempre.</span></h1>
+          <p class="hero-lead">Nuevos idiomas, nuevas habilidades y nuevas oportunidades. Aprende a tu ritmo con un equipo que te acompaña.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#cursos">Descubre nuestros cursos <span>→</span></a>
+            <a class="button button-ghost" href="#nosotros">Conócenos</a>
+          </div>
+          <div class="hero-note"><span class="avatar-stack"><i>A</i><i>E</i><i>+</i></span><span>Aprendizaje práctico y cercano</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustración de aprendizaje">
+          <div class="visual-card visual-main">
+            <div class="visual-top"><span class="live-dot"></span> TU PRÓXIMO PASO</div>
+            <div class="visual-illustration">
+              <div class="book book-back"></div><div class="book book-front"><span>ABC</span><small>LEARN & GROW</small></div>
+              <div class="sparkle sparkle-one">✦</div><div class="sparkle sparkle-two">✧</div>
+            </div>
+            <div class="visual-bottom"><div><strong>Aprender</strong><small>abre caminos</small></div><span class="round-arrow">↗</span></div>
+          </div>
+          <div class="floating-tag tag-language"><span>🌍</span><div><strong>Idiomas</strong><small>Comunícate sin límites</small></div></div>
+          <div class="floating-tag tag-tech"><span>💻</span><div><strong>Tecnología</strong><small>Prepara tu futuro</small></div></div>
+          <div class="visual-dots"></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>FORMACIÓN PARA TU FUTURO</span><span class="line"></span><span>IDIOMAS · INFORMÁTICA · CRECIMIENTO</span></div>
+    </section>
+
+    <section class="intro section-pad" id="nosotros">
+      <div class="container intro-grid">
+        <div><span class="eyebrow">BIENVENIDO A AULAEASY</span><h2>Aprender puede ser<br><span class="text-accent">más fácil.</span></h2></div>
+        <div class="intro-text"><p>Somos una academia de formación especializada en idiomas y nuevas tecnologías. Queremos que aprender sea una experiencia útil, accesible y motivadora.</p><p>Trabajamos con clases prácticas y grupos reducidos para que puedas avanzar con confianza.</p><a class="text-link" href="#contacto">Da el primer paso <span>↗</span></a></div>
+      </div>
+      <div class="container value-grid">
+        <article class="value-card"><span class="value-icon">✦</span><h3>Aprendizaje práctico</h3><p>Actividades y ejercicios conectados con situaciones reales.</p></article>
+        <article class="value-card"><span class="value-icon">◎</span><h3>A tu ritmo</h3><p>Opciones para distintos niveles y objetivos de aprendizaje.</p></article>
+        <article class="value-card"><span class="value-icon">♡</span><h3>Trato cercano</h3><p>Te acompañamos durante todo tu proceso formativo.</p></article>
+      </div>
+    </section>
+
+    <section class="courses section-pad" id="cursos">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">FORMACIÓN PARA CADA META</span><h2>Encuentra tu próximo <span class="text-accent">reto.</span></h2></div><p>Elige el camino que más te interese. Nosotros te ayudamos a recorrerlo.</p></div>
+        <div class="course-grid">
+          <article class="course-card language-card" id="idiomas">
+            <div class="course-art language-art"><span class="bubble bubble-a">HELLO!</span><span class="bubble bubble-b">¡HOLA!</span><span class="bubble bubble-c">BONJOUR</span><div class="globe">◎</div></div>
+            <div class="course-content"><span class="course-label">01 / IDIOMAS</span><h3>El mundo habla.<br>¡Tú también!</h3><p>Mejora tu comunicación y gana confianza para viajar, estudiar o trabajar.</p>
+              <ul class="course-list"><li>Inglés</li><li>Francés</li><li>Alemán</li></ul>
+              <a class="text-link" href="#contacto" data-course="Cursos de idiomas">Solicitar información <span>↗</span></a>
+            </div>
+          </article>
+          <article class="course-card tech-card" id="tecnologia">
+            <div class="course-art tech-art"><div class="code-window"><div class="code-dots"><i></i><i></i><i></i></div><span>&lt;learn&gt;</span><b>0101 1010</b><span class="code-green">create_future();</span><span>&lt;/learn&gt;</span></div><span class="tech-star">✳</span></div>
+            <div class="course-content"><span class="course-label">02 / NUEVAS TECNOLOGÍAS</span><h3>La tecnología<br>es tu herramienta.</h3><p>Desarrolla competencias digitales para desenvolverte en el mundo actual.</p>
+              <ul class="course-list"><li>Ofimática</li><li>Internet y herramientas digitales</li><li>Iniciación a la programación</li><li>Redes informáticas</li></ul>
+              <a class="text-link" href="#contacto" data-course="Cursos de informática">Solicitar información <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="schedule section-pad" id="horarios">
+      <div class="container schedule-grid">
+        <div><span class="eyebrow">ORGANIZA TU APRENDIZAJE</span><h2>Tu tiempo.<br><span class="text-accent">Tu oportunidad.</span></h2><p class="section-description">Consulta nuestros horarios orientativos y pregúntanos por la disponibilidad de grupos y niveles.</p><div class="schedule-note">Los horarios y precios definitivos se confirmarán al solicitar información.</div></div>
+        <div class="price-panel">
+          <div class="price-head"><span>OFERTA FORMATIVA</span><span class="price-pill">Información orientativa</span></div>
+          <div class="price-row"><div><strong>Idiomas</strong><small>Inglés, francés y alemán</small></div><span>Consultar</span></div>
+          <div class="price-row"><div><strong>Ofimática</strong><small>Herramientas de uso diario</small></div><span>Consultar</span></div>
+          <div class="price-row"><div><strong>Informática y redes</strong><small>Competencias digitales</small></div><span>Consultar</span></div>
+          <div class="price-row"><div><strong>Programación inicial</strong><small>Primeros pasos con código</small></div><span>Consultar</span></div>
+          <div class="schedule-hours"><span>MAÑANAS Y TARDES</span><strong>Horarios flexibles según grupo</strong></div>
+          <a class="button button-primary button-full" href="#contacto">Consultar horarios y precios <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy"><span class="eyebrow">EMPIEZA HOY</span><h2>Tu siguiente paso<br>empieza <span class="text-accent">aquí.</span></h2><p>Cuéntanos qué quieres aprender y nos pondremos en contacto contigo para orientarte sobre cursos, niveles, horarios y matrícula.</p>
+          <div class="contact-detail"><span class="detail-icon">✉</span><div><small>Correo electrónico</small><strong>info@aulaeasy.es</strong></div></div>
+          <div class="contact-detail"><span class="detail-icon">⌖</span><div><small>Ubicación</small><strong>Consulta nuestra academia</strong></div></div>
+          <p class="small-note">Datos de contacto de ejemplo: sustitúyelos por los datos reales antes de publicar.</p>
+        </div>
+        <form class="contact-form" id="enrollment-form">
+          <h3>Solicita información</h3><p>Rellena el formulario y prepara tu próxima aventura.</p>
+          <label for="full-name">Nombre y apellidos</label><input id="full-name" name="name" type="text" placeholder="Tu nombre" required>
+          <label for="email">Correo electrónico</label><input id="email" name="email" type="email" placeholder="nombre@ejemplo.com" required>
+          <label for="interest">¿Qué te interesa?</label><select id="interest" name="interest" required><option value="">Selecciona un curso</option><option>Cursos de idiomas</option><option>Cursos de informática</option><option>Quiero información general</option></select>
+          <label for="message">Mensaje <span>(opcional)</span></label><textarea id="message" name="message" rows="3" placeholder="Cuéntanos qué necesitas..."></textarea>
+          <label class="privacy-check"><input type="checkbox" required><span>He leído la información y acepto que contacten conmigo sobre mi consulta.</span></label>
+          <button class="button button-primary button-full" type="submit">Preparar solicitud <span>→</span></button>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+          <p class="form-disclaimer">Formulario demostrativo: no envía ni almacena datos. Para recibir matrículas reales debe conectarse a un servicio seguro y añadirse la información legal y de privacidad correspondiente.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main"><a class="brand brand-footer" href="#inicio"><span class="brand-mark">A</span><span>Aula<span class="brand-accent">Easy</span></span></a><p>Aprende hoy. Avanza siempre.</p><a href="#inicio" class="back-top">Volver arriba ↑</a></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> AulaEasy. Proyecto educativo.</span><span>Idiomas · Tecnología · Futuro</span></div>
+  </footer>
+</body>
+</html>
